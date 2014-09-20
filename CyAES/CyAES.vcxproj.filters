@@ -19,6 +19,21 @@
     <Filter Include="源文件\Bit">
       <UniqueIdentifier>{354a22e7-f176-4735-a45d-d9a0dc278d75}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\S-Box">
+      <UniqueIdentifier>{54813448-b1bc-4229-a343-fddb83e4ef2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Common">
+      <UniqueIdentifier>{0a2a1f74-9219-440c-aed6-2888f44b36b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\S-Box">
+      <UniqueIdentifier>{95df626a-0e5c-4b97-ba66-fd4d22dec25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Key">
+      <UniqueIdentifier>{741eb6ac-ca28-4917-8729-0f1cd558dd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Key">
+      <UniqueIdentifier>{f0c32903-b47d-488d-ad12-a68158b4ef1f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -33,6 +48,18 @@
     <ClInclude Include="Bit.h">
       <Filter>头文件\Bit</Filter>
     </ClInclude>
+    <ClInclude Include="ISBox.h">
+      <Filter>头文件\S-Box</Filter>
+    </ClInclude>
+    <ClInclude Include="IRoundKeyManager.h">
+      <Filter>头文件\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="SBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundKeyManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -43,6 +70,12 @@
     </ClCompile>
     <ClCompile Include="Bit.cpp">
       <Filter>源文件\Bit</Filter>
+    </ClCompile>
+    <ClCompile Include="SBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundKeyManager.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

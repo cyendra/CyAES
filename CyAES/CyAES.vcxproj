@@ -80,12 +80,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bit.h" />
+    <ClInclude Include="IRoundKeyManager.h" />
+    <ClInclude Include="ISBox.h" />
+    <ClInclude Include="RoundKeyManager.h" />
+    <ClInclude Include="SBox.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bit.cpp" />
     <ClCompile Include="CyAES.cpp" />
+    <ClCompile Include="RoundKeyManager.cpp" />
+    <ClCompile Include="SBox.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

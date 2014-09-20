@@ -13,3 +13,21 @@
 
 
 // TODO:  在此处引用程序需要的其他头文件
+
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <memory>
+
+#include <iostream>
+#include <sstream>
+#include <fstream>
+#include <algorithm>
+#include <string>
+#include <vector>
+#include <queue>
+#include <stack>
+#include <list>
+#include <set>
+#include <map>
+#include <initializer_list>
