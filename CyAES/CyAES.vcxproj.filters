@@ -34,6 +34,9 @@
     <Filter Include="源文件\Key">
       <UniqueIdentifier>{f0c32903-b47d-488d-ad12-a68158b4ef1f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Debug">
+      <UniqueIdentifier>{b34e5f21-29a7-470c-a372-98f197137317}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -60,6 +63,9 @@
     <ClInclude Include="RoundKeyManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="TestTool.h">
+      <Filter>头文件\Debug</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -72,10 +78,10 @@
       <Filter>源文件\Bit</Filter>
     </ClCompile>
     <ClCompile Include="SBox.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\S-Box</Filter>
     </ClCompile>
     <ClCompile Include="RoundKeyManager.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Key</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -95,6 +95,7 @@ void Bit::ShiftRow(int i) {
 		unsigned char bt = Get(i, j + 1);
 		Set(i, j, bt);
 	}
+	Set(i, MAXN - 1, hd);
 }
 
 void Bit::ShiftRow(int i, int d) {
@@ -141,5 +142,15 @@ void Bit::UpRotate(int j) {
 	for (int i = 0; i < MAXN - 1; i++) {
 		unsigned char bt = Get(i + 1, j);
 		Set(i, j, bt);
+	}
+}
+
+void Bit::ShowMat() {
+	for (int i = 0; i < MAXN; i++) {
+		for (int j = 0; j < MAXN; j++) {
+			//printf("%02d ",bytes[i][j]);
+			std::cout << std::hex << (int)bytes[i][j] << " ";
+		}
+		std::cout << std::endl;
 	}
 }

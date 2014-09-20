@@ -30,5 +30,7 @@ public:
 	void MixColumn(int j, const Bit& mat);
 	void Mix(const Bit& mat);
 	void UpRotate(int j);
+
+	void ShowMat();
 };
 
